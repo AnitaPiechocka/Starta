@@ -63,6 +63,7 @@ hr
 	color: #f2a7ba;
 	background-color:#fcf2f2;
 	font-size: 19px;
+	padding: 6.5px 20px;
 }
 .gallery button:focus,.introduction button:focus,.form button:focus
 {
