@@ -9,9 +9,7 @@
 			   		var scrolledY = $(window).scrollTop();
 					$('.bgWrapper').css('background-position','center -'+((scrolledY*0.1))+'px');
 		
-			   	}
-
-			   	
+			   	} 	
 			});
 	$(document).on('click', '[data-toggle="lightbox"]', function(event) {
     event.preventDefault();
