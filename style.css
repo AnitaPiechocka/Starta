@@ -20,7 +20,7 @@ body
 	top:0; 
 	left:0;
 }
-/*Ogólne*/
+/*Global*/
 .header
 {
 	text-align: center;	
@@ -64,10 +64,12 @@ hr
 	background-color:#fcf2f2;
 	font-size: 19px;
 	padding: 6.5px 20px;
+	box-sizing: border-box;
 }
 .gallery button:focus,.introduction button:focus,.form button:focus
 {
 	outline: 0;
+	box-sizing: border-box;
 }
 .profile-pic
 {
@@ -77,7 +79,7 @@ hr
 	margin-bottom:10px; 
 	margin-top: 80px;
 }
-/*Intro*/
+/*Introduction*/
 .introduction
 {
 
@@ -88,13 +90,13 @@ hr
 {
 	padding-bottom: 20px;
 }
-/*Galeria zdjęć/artykułów*/
+/*Gallery*/
 .gallery
 {
 	padding: 5% 0;
 	text-align: center;
 }
-/*Efekt overlay*/
+/*Overlay Effect*/
 .overlay
 {
 	position: relative;	
@@ -124,7 +126,7 @@ hr
 {
 	opacity: 0.7;
 }
-/*Formularz kontaktowy*/
+/*Contact form*/
 .form
 {
 	height: 450px;
@@ -191,7 +193,7 @@ hr
 	margin-left: auto;
 	margin-right: auto;
 }
-/*Stopka*/
+/*Footer*/
 footer, .part3 a
 {
 	opacity: 0.9;
@@ -321,7 +323,6 @@ footer, .part3 a
 	{
 		display: box;
 		text-align: right;
-		/*justify-content: flex-end;*/
 	}
 	.part1, .part2
 	{
@@ -379,12 +380,11 @@ footer, .part3 a
 	.content
 	{
 		grid-row: 2/3;
-		padding: 10em 2em ;
+		padding: 10em 2em 12em 2em;
 	}
 	.data-sections
 	{
 		display: inline-flex;
-		/*margin-right: 10px;*/
 		padding: 20px 12px;
 		justify-content: space-around;
 	}
@@ -440,7 +440,7 @@ footer, .part3 a
 	.content
 	{
 		grid-row: 2/3;
-		padding: 10em 2em ;
+		padding: 12em 2em 15em 2em;
 	}
 	button
 	{
@@ -471,7 +471,7 @@ footer, .part3 a
 	#grid
 	{
 		display: grid;
-		grid-template-rows: 400px 1fr 10%;
+		grid-template-rows: 400px 1fr 200px;
 	}
 	body
 	{
@@ -493,7 +493,7 @@ footer, .part3 a
 	}
 	.note
 	{
-		/* display: box; */
+		display: box;
 		text-align: center;
 	}
 	.part1, .part2
@@ -503,7 +503,7 @@ footer, .part3 a
 	.content
 	{
 		grid-row: 2/3;
-		padding: 10em 2em ;
+		padding: 12em 2em 20em 2em ;
 	}
 	button
 	{
