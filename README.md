@@ -1,2 +1,2 @@
 # starta
-Second Assigment
+Responsive website based on html5up template.
